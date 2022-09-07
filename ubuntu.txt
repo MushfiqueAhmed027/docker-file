@@ -1,0 +1,60 @@
+ubuntu
+username:mushfique_71
+password:mushfique7171
+
+docker run -d -p 80:80 docker/getting-started
+phpmyadmin
+user:sail
+password:pvB08PTcihYLl_7u
+
+
+1.dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+
+2.dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+
+3.wsl
+
+4.cd ~
+
+5.docker-compose --version
+ docker-compose up
+ docker-compose down
+ docker-compose up
+ sail up -d
+ sail artisan migrate
+ sail build --no-cache
+ docker scan
+ sail up -d
+ sudo docker exec -it laravel-app bash
+   composer install
+   php -v
+ docker run -d --name phpmyadmin -e PMA_ARBITRARY=1 -p 8081:80 phpmyadmin
+
+docker run --name my-own-mysql -e MYSQL_ROOT_PASSWORD=mypass123 -d mysql:8.0.1
+
+docker exec -it my-own-mysql bash
+
+docker run --name root -d --link root:db -p 8081:80 phpmyadmin/phpmyadmin
+
+docker --version
+docker-compose --version
+
+chmod -R 777 <project directory name>
+
+
+https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04
+
+https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04
+
+https://www.digitalocean.com/community/tutorials/how-to-install-and-set-up-laravel-with-docker-compose-on-ubuntu-20-04
+
+curl -L https://github.com/dream71project/ethnic-keyboard.git
+
+docker-compose build
+
+
+
+
+
+
+ 
